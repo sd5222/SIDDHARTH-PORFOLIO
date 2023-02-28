@@ -8,10 +8,8 @@ import { ReactComponentElement } from "react";
 import { IconType } from "react-icons/lib";
 import {
   FaGithub,
-  FaBlog,
   FaInstagram,
   FaLinkedin,
-  FaTwitter,
   FaYoutube,
   FaEnvelope,
 } from "react-icons/fa";
@@ -26,25 +24,21 @@ type Socials = Social[];
 
 // Social Container
 const SOCIALS: Socials = [
-  { name: "blog", url: "https://blog.kunalkeshan.dev", Icon: FaBlog },
   {
     name: "instagram",
-    url: "https://instagram.com/kunalkeshan",
+    url: "https://instagram.com/sid_27_10",
     Icon: FaInstagram,
   },
   {
     name: "linkedin",
-    url: "https://linkedin.com/in/kunalkeshan",
+    url: "https://linkedin.com/in/siddharth-daga-a3a3531bb",
     Icon: FaLinkedin,
   },
-  { name: "github", url: "https://github.com/kunalkeshan", Icon: FaGithub },
-  {
-    name: "twitter",
-    url: "https://twitter.com/_kunalkeshan_",
-    Icon: FaTwitter,
-  },
-  { name: "youtube", url: "https://youtube.com/@kunalkeshan", Icon: FaYoutube },
-  { name: "email", url: "hey@kunalkeshan.dev", Icon: FaEnvelope },
+  { name: "github", url: "https://github.com/sd5222", Icon: FaGithub },
+  
+  
+  { name: "youtube", url: "https://youtube.com/@sidandsangam", Icon: FaYoutube },
+  { name: "email", url: "dagasiddharth27@gmail.com", Icon: FaEnvelope },
 ];
 
 export default SOCIALS;

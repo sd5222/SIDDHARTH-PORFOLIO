@@ -68,13 +68,13 @@ const Contact = () => {
         </p>
         <div className="mt-8 w-fit rounded-xl border-2 border-black bg-white py-6 px-12">
           <Link
-            href="mailto:hey@kunalkeshan.dev"
+            href="mailto:dagasiddharth27@gmail.com"
             className="group flex items-center gap-2 font-[Montserrat] text-lg font-semibold transition-all duration-300 hover:text-portfolio-main"
           >
             <span className="rounded-full bg-white py-2 pr-2 text-xl text-black transition-all duration-300 group-hover:text-portfolio-main">
               <FaEnvelope />
             </span>{" "}
-            hey@kunalkeshan.dev
+            dagasiddharth27@gmail.com
           </Link>
         </div>
         <div className="mt-8 flex w-full flex-wrap items-center justify-center gap-4 lg:justify-start">

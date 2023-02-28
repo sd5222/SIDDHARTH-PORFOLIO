@@ -13,7 +13,7 @@ import { IMAGE_SOURCE } from "../../config";
 import LINKS from "../../data/external";
 
 const typewriterOptions: Options = {
-  strings: ["Developer", "Writer", "Creator"],
+  strings: ["Analyst", "Tech Enthusiast", "Creator"],
   loop: true,
   autoStart: true,
   skipAddStyles: true,
@@ -31,7 +31,7 @@ const Intro = () => {
         <h1 className="text-3xl font-semibold sm:text-4xl md:text-7xl">
           I&apos;m{" "}
           <span className="whitespace-nowrap bg-portfolio-main px-1 leading-tight text-white">
-            Kunal Keshan
+            Siddharth Daga
           </span>
           ,
           <div className="mt-4 leading-tight">
@@ -45,16 +45,16 @@ const Intro = () => {
           </div>
         </h1>
         <h2 className="mt-4 font-[Montserrat] font-semibold text-themes-txt_secondary md:text-lg">
-          Creative explorer, seeking new frontiers with a bold spirit. Building{" "}
+          An Engineer with a Creative Mind!!{" "} Content Creator at {" "}
           <a
-            href={LINKS.codelanceDevs}
+            href={"https://www.youtube.com/channel/UCfERUUeZsVwa1SwVXpCRlTg"}
             target="_blank"
             rel="noreferrer"
             className="border-b-2 border-b-codelanceDevs transition-all duration-300 hover:text-codelanceDevs"
           >
-            Codelance Devs
+            Youtube
           </a>
-          , admin at{" "}
+          , Committee Member at{" "}
           <a
             href={LINKS.thinkDigital}
             target="_blank"
@@ -63,7 +63,7 @@ const Intro = () => {
           >
             Think-Digital
           </a>
-          , technical head at{" "}
+          , Commitee Member at{" "}
           <a
             href={LINKS.ieeeSrm}
             target="_blank"
@@ -72,14 +72,14 @@ const Intro = () => {
           >
             IEEE SRM
           </a>
-          , and <abbr title="Chief Product Officer">CPO</abbr> at{" "}
+          , and Data Science and Business Analyst Intern at{" "}
           <a
-            href={LINKS.rentyaar}
+            href={"https://internship.thesparksfoundation.info/</h2>"}
             target="_blank"
             rel="noreferrer"
             className="border-b-2 border-b-yellow-300 transition-all duration-300 hover:text-yellow-300"
           >
-            Rentyaar
+            The Sparks Foundation
           </a>
         </h2>
         <div className="mt-8 flex flex-col gap-4 md:mt-16 md:flex-row">
@@ -93,14 +93,14 @@ const Intro = () => {
             href="/projects"
             className="flex w-full items-center justify-center gap-2 rounded-lg border-2 border-black bg-white py-4 text-center font-[Montserrat] font-semibold transition-all duration-300 hover:-translate-y-1 hover:bg-themes-txt_primary hover:text-themes-bg_primary md:w-1/2"
           >
-            <FaSuitcase /> View portfolio
+            <FaSuitcase /> View Experience
           </Link>
         </div>
       </div>
       <div className="flex h-full w-full items-center justify-center">
         <div className="flex h-fit max-h-[520px] w-full max-w-lg items-center justify-center overflow-hidden rounded-xl border-[3px] border-black bg-portfolio-main shadow-3d transition-all duration-300 hover:shadow-3d-hover">
           <Image
-            src={IMAGE_SOURCE.ART_IMAGE}
+            src={"/sid.jpeg"}
             alt="(/≧▽≦)/"
             width={100}
             height={100}

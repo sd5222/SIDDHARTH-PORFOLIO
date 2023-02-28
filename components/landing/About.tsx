@@ -14,13 +14,8 @@ const CONTENT = [
   {
     title: `${new Date().getFullYear() - 2021}+ years of experience`,
     description:
-      "I found my calling in web development. It's a never-ending source of happiness and it never feels like a job.",
-  },
-  {
-    title: `Biology student turned tech freak`,
-    description:
-      "Chose passion over tradition. Originally aimed for medicine, but engineering called instead. Glad to have followed my heart, not societal expectations.",
-  },
+      "I found my calling in content creation. It's a never-ending source of happiness and it never feels like a job.",
+  }
 ];
 
 const About = () => {
@@ -56,11 +51,15 @@ const About = () => {
           />
         </h2>
         <p className="mt-4 font-[Montserrat] font-semibold text-themes-txt_secondary">
-          I am an Electronics and Communication Engineering Student at SRMIST,
-          presently in my third year. I&apos;ve been pursuing full-stack web
-          development since my first year and have a big interest in developing
-          products, improving services and delivering value. My core ideals are
-          of consistency, hard work, discipline, and grit.
+        I am Siddharth Daga currently a btech 3rd year student in SRM UNIVERSITY KTR, my branch us Electronics and Communication. 
+
+♦I also have a YouTube channel with more that 500k+ views in which I post videos related to my college and vlogs for fun. 
+
+♦I am very interested in DATA ANALYSIS, POWER BI and MYSQL and its amazing to learn about applications in various fields. 
+
+♦I have keen interest in SALES AND MARKETING OPERATIONS and have worked for STARTUPS also.
+
+✔I enjoy challenges that enables me to grow. I like to find applications in what is taught to me and use Feynman and Pomodoro techniques to learn as quickly as possible.
         </p>
         <ul className="mt-4">
           {CONTENT.map((content, index) => (
